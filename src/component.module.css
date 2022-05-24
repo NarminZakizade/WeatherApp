@@ -19,10 +19,6 @@ body {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.button {
-  background-color: #827397;
-  color: White;
-}
 
 .info {
   margin-top: 20px;
@@ -31,6 +27,19 @@ body {
 @media only screen and (max-width: 800px) {
   .center {
     width: 50%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .search {
+    width:70%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .center{
+    width:80%;
+  }
+  .search {
+    width:70%;
   }
 }
 .temperature {
